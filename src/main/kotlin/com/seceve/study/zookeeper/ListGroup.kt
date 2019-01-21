@@ -23,6 +23,6 @@ class ListGroup: ConnectionWather() {
 fun main(args: Array<String>) {
     val listGroup = ListGroup()
     listGroup.connect(Config.HOSTS)
-    listGroup.list("a")
+    listGroup.list("")
     listGroup.close()
 }

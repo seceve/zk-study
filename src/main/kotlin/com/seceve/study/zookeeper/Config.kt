@@ -4,7 +4,7 @@ class Config{
 
     companion object {
 
-        val HOSTS = ""
+        val HOSTS = "localhost"
 
     }
 }
